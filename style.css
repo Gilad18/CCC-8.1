@@ -1,0 +1,90 @@
+* {
+    margin: 15px;
+    background-color: rgb(11, 65, 60);
+}
+#f1 , #f2 , #f3 ,#r1 , #r2 , #r3 ,#fg1 , #fg2 , #fg3 ,#rg1 , #rg2 , #rg3  {
+   color: white;
+}
+#f1 , #r1 , #fg1 , #rg1
+{
+    width: 180px;
+    height: 80px;
+}
+
+#f2 , #r2 , #fg2 , #rg2
+{
+    width: 150px;
+    height: 70px;
+}
+#f3 , #r3 , #fg3 , #rg3
+{
+    width: 100px;
+    height: 50px;
+}
+
+#f1 {
+    background-color: green;
+    
+}
+
+#f2 {
+    background-color: red;
+   
+}
+
+#f3 {
+    background-color: blue; 
+}
+
+#f1:hover , #f2:hover , #f3:hover ,#r1:hover , #r2:hover , #r3:hover {
+    opacity: 0.85;
+}
+
+#r1 , #r2 ,#r3, #rg1 , #rg2 , #rg3 {
+    border-radius: 30px;
+}
+#r1 {
+    background-color: orange;
+}
+#r2 {
+    background-color: yellow;
+}
+#r3 {
+    background-color: grey;
+}
+#fg1 {
+     border: green 2px solid;
+}
+#fg1:hover {
+    background-color: green;
+}
+#fg2 {
+        border: red 2px solid;
+}
+#fg2:hover {
+    background-color: red;
+}
+#fg3 {
+        border: blue 2px solid;
+}
+#fg3:hover {
+    background-color: blue;
+}
+#rg1 {
+     border: orange 2px solid;
+}
+#rg1:hover {
+    background-color: orange;
+}
+#rg2 {
+        border: yellow 2px solid;
+}
+#rg2:hover {
+    background-color: yellow;
+}
+#rg3 {
+        border: gray 2px solid;
+}
+#rg3:hover {
+    background-color: gray;
+}
